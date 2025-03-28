@@ -1,0 +1,126 @@
+
+
+
+body{
+    background-color: #102C57;
+    color:#EBF4F6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*NavBar*/
+.navbar{
+    border-radius: 10px;
+    display: flex;
+    background-color: black;
+    font-size: 2rem;
+    width: 100%;
+    display: block;
+    position: fixed;
+    opacity: 80%;
+}
+.navbar a{
+    
+    margin-left: 23rem;
+    color: #EBF4F6;
+    text-decoration: none;    
+    transition: .8s;
+}
+.navbar a:hover{
+    color: rgb(146, 10, 146);
+}
+
+/*Titulo*/
+#titulo{
+    font-size: 100px;
+    text-align: center;
+}
+
+
+/*Sobre*/
+section.sobreevento{
+font-size: 30px;
+ background-color: #1679AB;
+ margin-top: 20px;
+ margin-left: 40rem;
+border-radius: 15px;
+padding: 10px;
+ height: auto;
+ width: 30%;
+}
+
+/*Palestrantes*/
+
+.imagens {
+    display: flex;
+    justify-content: center; /* Centraliza os elementos */
+    align-items: center;
+    gap: 20px; /* Espaço entre os cartões */
+    margin-top: 20px;
+}
+
+/* Estilização do card (fundo separado para cada imagem) */
+.card-palestrante {
+    background-color: #1679AB; /* Fundo separado */
+    padding: 20px;
+    border-radius: 15px; /* Bordas arredondadas */
+    display:inline-flex;
+    flex-direction: column; /* Para alinhar a imagem e o texto */
+    align-items: center;
+    width: 20%;
+    text-align: center;
+}
+
+/* Estilização das imagens */
+.card-palestrante img {
+    height: 290px;
+    width: auto;
+    display: block;
+    border-radius: 10px; /* Bordas arredondadas para as imagens */
+}
+
+/* Estilização do texto abaixo da imagem */
+.card-palestrante p {
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+}
+
+ /*link*/
+ a{
+    text-align: center;
+ }
+.link{
+    font-size: 30px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 5px;
+    width: 16%;
+    background-color: #024CAA;
+    display: flex;
+    text-align: center;
+    color:rgb(255, 255, 255);
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.link:hover{
+    font-size: 40px;
+    color: white;
+    background-color: red;
+    cursor:pointer;
+    width: 22%;
+}
+ 
+@media screen and (max-width:576px) {
+    .select{
+       flex-direction: column;
+       gap: 5px;
+    } }
+
+
+
